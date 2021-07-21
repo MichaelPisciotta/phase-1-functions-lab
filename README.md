@@ -86,3 +86,11 @@ cents per foot (not including 400, which are free!). Then Scuber charges a
 flat fare for a distance over 2000 feet and under 2500 feet. Finally, Scuber
 does not allow any rides over 2500 feet — the function returns `'cannot travel
 that far'` if a ride over 2500 feet is requested.
+
+if feet less than 400, fare is free
+
+else if feet is between 400-2000, fare is 2 cents * feet
+
+else if feet is between 2000-2500, flat fare
+
+else return 'cannot travel that far'
