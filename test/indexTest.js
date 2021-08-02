@@ -27,6 +27,10 @@ describe('index.js', function() {
     });
   });
 
+
+
+
+
   describe('distanceTravelledInFeet()', function() {
     it('returns the distance travelled in feet', function() {
       expect(distanceTravelledInFeet(43, 48)).to.equal(1320);
@@ -40,6 +44,11 @@ describe('index.js', function() {
       expect(distanceTravelledInFeet(34, 28)).to.equal(1584);
     });
   });
+
+
+
+
+  
 
   describe('calculatesFarePrice(start, destination)', function() {
     it('gives customers a free sample', function() {
